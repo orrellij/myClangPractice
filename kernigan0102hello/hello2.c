@@ -1,4 +1,6 @@
 main()
 {
-	printf("hello, world\c");
+	printf("hello, ");
+	printf("world ");
+	printf("\c");
 }
