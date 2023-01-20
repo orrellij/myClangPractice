@@ -9,7 +9,7 @@ main()
 
 	celsius = lower;
 	while (celsius <= upper) {
-		fahr = 9 * (celsius+32) / 5;
+		fahr =(9/5) * (celsius+32);
 		printf("%d\t%d\n", celsius, fahr);
 		celsius = celsius + step;
 	}
